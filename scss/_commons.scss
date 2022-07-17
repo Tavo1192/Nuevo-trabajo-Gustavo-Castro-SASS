@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $secondaryColor;
+    
+}
+h2,
+h3,
+h4 {
+    font-family: $secondaryFont;
+    color: $black;
+   
+   
+}
+h2 {
+    font-size: $textLg;
+    text-align: center;
+}
+h3 {
+    font-size: $textMd;
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: $textMd;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+h6{
+    font-size: $textlg;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-titulo2 {
+    margin: 20px 50px;
+}
+
+.main img {
+    width: 75%;
+    height: 75%;
+    margin-left: 13%;
+}
+
+    
+    
+
